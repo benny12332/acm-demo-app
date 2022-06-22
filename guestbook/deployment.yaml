@@ -25,8 +25,8 @@ spec:
         - name: GET_HOSTS_FROM
           value: env
         - name: REDIS_LEADER_SERVICE_HOST
-          value: redis-leader.guestbook.svc.clusterset.local
+          value: redis-leader.guestbook.svc.set1.local
         - name: REDIS_FOLLOWER_SERVICE_HOST
-          value: redis-follower.guestbook.svc.clusterset.local
+          value: redis-follower.guestbook.svc.set1.local
         ports:
         - containerPort: 80
